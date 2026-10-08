@@ -1,0 +1,41 @@
+# ==============================
+# BACKEND
+# ==============================
+
+NexCart-backend/target/
+NexCart-backend/src/main/resources/application.properties
+
+
+# ==============================
+# FRONTEND
+# ==============================
+
+nexcart-frontend/node_modules/
+nexcart-frontend/dist/
+nexcart-frontend/.vite/
+
+
+# ==============================
+# ENVIRONMENT / SECRETS
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+
+# ==============================
+# IDE
+# ==============================
+
+.vscode/
+.idea/
+
+
+# ==============================
+# OS / LOGS
+# ==============================
+
+.DS_Store
+Thumbs.db
+*.log
